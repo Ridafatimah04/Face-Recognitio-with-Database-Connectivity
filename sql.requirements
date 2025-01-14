@@ -1,0 +1,7 @@
+SQLite Library:
+
+SQLite is a lightweight, disk-based database that doesn't require a separate server process.
+It can be embedded within applications, making it an ideal choice for this project.
+
+Install the SQLite library for Python:
+pip install sqlite3
