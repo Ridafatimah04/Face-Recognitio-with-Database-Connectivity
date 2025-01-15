@@ -106,4 +106,7 @@ Main Loop In the main loop, after recognizing a face, we save the recognition re
 
 camera.release() cv2.destroyAllWindows() conn.close() save_to_database(class_name, prediction[0].tobytes()): After recognizing a face, we save the class name and the face embedding (converted to bytes) to the database.
 
+<img width="610" alt="image" src="https://github.com/user-attachments/assets/dd7a74f3-261d-4e26-9535-34f6d7f47f4d" />
+
+
 #Conclusion Using SQL in this project allows us to maintain a persistent record of recognized faces. This approach can be useful for applications where you need to track recognized faces over time or perform further analysis on the stored data. The integration with SQLite makes the setup simple and portable.
